@@ -1,0 +1,41 @@
+1. ek function likho jo parameter me pass kiye gae array ke numbers ko sum kare.
+2. ek function likho jo parameter me pass kiye gae numbers ko sum kare.
+3. ek function likho jo parameter me pass kiye gae numbers ko sum kare lekin pehli 
+    2 value fix ho.
+
+4  Write a JavaScript function that takes a positive integer 
+    as a parameter and calculates the sum of its digits.
+
+5. ek function likho jo parameter me string word le or use
+    reverse kare.
+
+6 .Write a JavaScript function that takes an array of numbers
+    as input and returns the largest element in the array.
+
+7. write a JavaScript function jo argument me kitne bhi number le or sirf sabse chhota 
+    number return kare.
+
+8. check  isPalindrome =  nayan  array me convert kara fir use reverse kiya
+    nayan firr use sirf
+
+    
+9. Write a JavaScript function that takes a string as input and returns the count of 
+     vowels in the string. Consider both lowercase and uppercase vowels.
+           
+10. make a function that print  table of any number;
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. find the factorial
+
+7. Check for Prime Number
