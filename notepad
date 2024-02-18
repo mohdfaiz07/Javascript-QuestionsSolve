@@ -1,33 +1,45 @@
-1. ek function likho jo parameter me pass kiye gae array ke numbers ko sum kare.
-2. ek function likho jo parameter me pass kiye gae numbers ko sum kare.
+1. Write a fucntion that takes array as a parameter and return the sum of the its values.
+
+2. write a function that takes as many numbers as a parameter and return the sum of its numbers.
+
 3. ek function likho jo parameter me pass kiye gae numbers ko sum kare lekin pehli 
-    2 value fix ho.
+    2 value fix ho. 
+    
+3. write a function that takes as many numbers as a parameter  but first two numbers are
+    fixed and  return the sum of its numbers.
 
 4  Write a JavaScript function that takes a positive integer 
     as a parameter and calculates the sum of its digits.
 
-5. ek function likho jo parameter me string word le or use
-    reverse kare.
+
+5. Write a function that takes a word as a parameter and return the reverse word.
 
 6 .Write a JavaScript function that takes an array of numbers
     as input and returns the largest element in the array.
 
-7. write a JavaScript function jo argument me kitne bhi number le or sirf sabse chhota 
-    number return kare.
+7. Write a JavaScript function that takes an array of numbers
+    as input and returns the smaallest element in the array.
 
-8. check  isPalindrome =  nayan  array me convert kara fir use reverse kiya
-    nayan firr use sirf
-
+8. write a function that check a word is  isPalindrome or not.
     
 9. Write a JavaScript function that takes a string as input and returns the count of 
      vowels in the string. Consider both lowercase and uppercase vowels.
            
 10. make a function that print  table of any number;
 
+11. given a string, reverse each word in the sentence.
+     ex = 'how are you' to 'woh era uoy'
 
+12. Write a function that checks whether the argument passed to it is an
+  array or not and returns true if it's an array and false otherwise 
 
+13. empty an array using loop.
 
+14. write a function that  check number is integer or not
 
+15. write a function that dublicate the array value.
+
+16. Write a function that reverse a number.
 
 
 

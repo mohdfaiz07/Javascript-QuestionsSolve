@@ -214,7 +214,7 @@ console.log(conutVowels("HElllooo"))
 ///////////////////////////////////////////////question 10/////////////////////////////////////////
 
 // make a function that print table of any number.
-
+/*
 function tableOf(num){
 
     for(let i = 1; i<11; i++){
@@ -224,8 +224,151 @@ function tableOf(num){
 }
 tableOf(2)
 
+*/
+
+///////////////////////////////////////////////question 11/////////////////////////////////////////
+
+//  given a string, reverse each word in the sentence.
+
+/*
+    let str = 'how are you';
+
+   const reversedString =  str.split(' ').map( (word)=> word.split('').reverse().join('') )
+    console.log(reversedString.join(' '))
+
+
+
+*/
+
+
+///////////////////////////////////////////////question 12/////////////////////////////////////////
+
+//12. Write a function that checks whether the argument passed to it is an
+//  array or not and returns true if it's an array and false otherwise 
+
+/*
+function checkArray (input){
+   return Array.isArray(input)
+
+}
+
+console.log(checkArray([]))
+console.log(checkArray('hello'))
+console.log(checkArray({}))
+
+*/
+
+///////////////////////////////////////////////question 13/////////////////////////////////////////
+// 13. empty an array using loop.
+
+/* using loop
+let arr = [1,2,3,4,5,6]
+
+for(i = arr.length-1 ; i>=0; i--){
+    arr.pop()
+    console.log(i)
+  
+}
+console.log(arr)
+
+*/
+/* without loop
+1
+let arr = [1,2,3,4,5,6]
+arr.length = 0
+console.log(arr)
+
+2
+let arr1 = [1,2,3,4,5,6]
+arr1 = []
+console.log(arr1)
+
+*/
+
+
+///////////////////////////////////////////////question 14/////////////////////////////////////////
+
+// 14. write a function that  check number is integer or not
+
+/*
+function checkInteger(num){
+    if(num%1 === 0){
+        console.log(`its integer`)
+    }
+    else{
+        console.log('its not integer')
+    }
+
+}
+
+checkInteger(10.1)
+
+or
+console.log(Number.isInteger(10.2))
+
+*/
+
+///////////////////////////////////////////////question 15/////////////////////////////////////////
+// 15. write a function that dublicate the array value.
+
+//condition 1 dont create new array.
+/*
+let arr1 = [1,2,3,4,5];
+
+function dublicateArr (arr){
+  arr.map( (val)=> arr.push(val))
+}
+
+dublicateArr(arr1)
+console.log(arr1)
+
+*/
+
+//condition 2  create new array.
+
+/*
+let arr1 = [1,2,3,4,5];
+
+function dublicateArr (arr){
+ const newArr = arr.concat(arr)
+    // or 
+    // const newArr = [...arr1, ...arr1 ]
+
+ return newArr
+}
+
+console.log(dublicateArr(arr1))
+*/
+
+///////////////////////////////////////////////question 16/////////////////////////////////////////
+
+// 16. Write a function that reverse a number.
+
+// condition 1 without loop
+/*   
+function reverseNumber(num){
+      const reversedNum =  String(num).split('').reverse().join('')
+           return Number(reversedNum)
+    }
+
+   console.log( reverseNumber(21))
+
+*/
+// condition 1 with loop
+
+
+function reverseNumber(num){
+    
+
+
+}
+
+
+
+
 
 ///////////////////////////////////////////////////Question no = 6  /////////////////////////////////////////////////////
+
 
 // find the factorial ---
 
